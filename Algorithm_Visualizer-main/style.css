@@ -1,0 +1,290 @@
+h1 {
+    display: block;
+    padding: 3%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: rgb(209, 0, 0);
+    background-color: gray
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+
+}
+
+.backk {
+    background-image: url("b4.jpg");
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.frontpage {
+    background-color: #929480;
+    color: white;
+}
+
+/* td{
+    background-color: #35ad7b56 ;
+} */
+th,
+td {
+    width: 150px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+}
+
+.animation {
+    background-color: non;
+}
+
+.buttons {
+    width: 160px;
+    border-radius: 15px;
+    background-color: hsla(186, 29%, 68%, 0.82);
+}
+
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(80, 49, 106, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
+}
+
+
+.header {
+    background-color: rgb(234, 199, 117);
+    display: flex;
+    align-items: baseline;
+    padding: 1.25%;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: rgb(204, 249, 89);
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: rgb(197, 109, 109);
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: rgb(202, 188, 188);
+    font-family: inherit;
+    font-size: inherit;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#sort {
+    color: #a12626cb;
+}
+
+.Webname {
+    color: #2dacc0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.Webname:hover{
+    color: #1ad8cf;
+    text-decoration: none;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 90%;
+    /* Full-width */
+    height: 5px;
+    /* Specified height */
+    background: #b43b3b;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 10px;
+    /* Set a specific slider handle width */
+    height: 10px;
+    /* Slider handle height */
+    background: #10a23c;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    /* Set a specific slider handle width */
+    height: 10px;
+    /* Slider handle height */
+    background: #44bd56;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(150, 50, 239);
+    text-align: left;
+    font-size: 16px;
+    background-color: #5c52b7c6;
+}
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.dark-background {
+    background-color: #1b1b2f;
+}
+
+.text-color {
+    color: #cda8ae;
+}
+
+body {
+    background-color: #471616;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item {
+    background: #e11e69dd;
+    border: 2pt solid rgba(249, 94, 83, 0.807);
+    width: 15px;
+    transition: 0.1s all ease;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input-panel {
+    
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#sorting {
+    margin-bottom: 50px;
+    transform: rotate(180deg) scaleX(-1); 
+}
+
+.label{
+    color: #5fb6d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.visualisebtn{
+    font-size: 40px;
+    width: 20%;
+}
+.btnn{
+    width: 150px;
+    border-radius: 10px;
+    background-color: #9d912ad1;
+}
+.btn{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #559a4bd1;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f6e583;
+
+}
